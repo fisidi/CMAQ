@@ -186,7 +186,7 @@ BASEDIR = ${INSTALL}/ioapi-3.2-20200828
 ```
 
 ### Step 4: Install CMAQ
-     - follow these instructions to download the code, then use the modifications in Step 5:  [CMAQ Benchmark Tutorial](CMAQ_UG_tutorial_benchmark.md)
+Follow these instructions to download the code, then use the modifications in Step 5:  [CMAQ Benchmark Tutorial](CMAQ_UG_tutorial_benchmark.md)
 In the directory where you would like to install CMAQ, create the directory issue the following command to clone the EPA GitHub repository for CMAQv5.3.2:
 
 ```
@@ -280,8 +280,9 @@ endif
 ```
   If the User sees this, the WRF-CMAQ model has been successfully compiled and built and they may skip to Step 12. If not, the User should double check the library paths above and try again. If it still fails, please reach post on the [CMAS Forum](https://forum.cmascenter.org/c/wrf-cmaq).
 
+Note: Steps 7-10 are **ONLY** for systems without [Git](https://git-scm.com/).
 
-### Step 7: Download WRF 4.1.1 and install it
+### Step 7: Download WRF 4.1.1 and install it 
    - Please register at the WRF User site https://www2.mmm.ucar.edu/wrf/users/download/get_source.html
    - obtain the WRF-Modeling System source code
    - download version 4.1.1 from https://github.com/wrf-model/WRF/releases/tag/v4.1.1
